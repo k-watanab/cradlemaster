@@ -1,0 +1,22 @@
+{
+    "name": "onsenui-v2-angular1-minimum",
+    "version": "2.2.0",
+    "cordova": {
+        "plugins": {
+            "monaca-plugin-monaca-core": {},
+            "cordova-plugin-splashscreen": {}
+        }
+    },
+    "dependencies": {
+        "cordova-plugin-splashscreen": "6.0.0",
+        "monaca-plugin-monaca-core": "3.3.1"
+    },
+    "scripts": {
+        "monaca:preview": "npm run dev",
+        "dev": "browser-sync start -s www/ --watch --port 8080 --ui-port 8081"
+    },
+    "devDependencies": {
+        "browser-sync": "~2.27.7",
+        "cordova": "^11.0.0"
+    }
+}
